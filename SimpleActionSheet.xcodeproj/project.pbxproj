@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FD0B3C014CE7EE400A88BA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD0B3BF14CE7EE400A88BA6 /* UIKit.framework */; };
+		9FD0B3C214CE7EE400A88BA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD0B3C114CE7EE400A88BA6 /* Foundation.framework */; };
+		9FD0B3C414CE7EE400A88BA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD0B3C314CE7EE400A88BA6 /* CoreGraphics.framework */; };
+		9FD0B3CA14CE7EE400A88BA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FD0B3C814CE7EE400A88BA6 /* InfoPlist.strings */; };
+		9FD0B3CC14CE7EE400A88BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0B3CB14CE7EE400A88BA6 /* main.m */; };
+		9FD0B3D014CE7EE400A88BA6 /* SimpleActionSheetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0B3CF14CE7EE400A88BA6 /* SimpleActionSheetAppDelegate.m */; };
+		9FD0B3D314CE7EE400A88BA6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD0B3D114CE7EE400A88BA6 /* MainWindow.xib */; };
+		9FD0B3DB14CE7F0800A88BA6 /* SimpleActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0B3DA14CE7F0800A88BA6 /* SimpleActionSheetViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FD0B3BB14CE7EE400A88BA6 /* SimpleActionSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleActionSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD0B3BF14CE7EE400A88BA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FD0B3C114CE7EE400A88BA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FD0B3C314CE7EE400A88BA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9FD0B3C714CE7EE400A88BA6 /* SimpleActionSheet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleActionSheet-Info.plist"; sourceTree = "<group>"; };
+		9FD0B3C914CE7EE400A88BA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FD0B3CB14CE7EE400A88BA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FD0B3CD14CE7EE400A88BA6 /* SimpleActionSheet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleActionSheet-Prefix.pch"; sourceTree = "<group>"; };
+		9FD0B3CE14CE7EE400A88BA6 /* SimpleActionSheetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleActionSheetAppDelegate.h; sourceTree = "<group>"; };
+		9FD0B3CF14CE7EE400A88BA6 /* SimpleActionSheetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleActionSheetAppDelegate.m; sourceTree = "<group>"; };
+		9FD0B3D214CE7EE400A88BA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9FD0B3D914CE7F0800A88BA6 /* SimpleActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleActionSheetViewController.h; sourceTree = "<group>"; };
+		9FD0B3DA14CE7F0800A88BA6 /* SimpleActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleActionSheetViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FD0B3B814CE7EE400A88BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD0B3C014CE7EE400A88BA6 /* UIKit.framework in Frameworks */,
+				9FD0B3C214CE7EE400A88BA6 /* Foundation.framework in Frameworks */,
+				9FD0B3C414CE7EE400A88BA6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FD0B3B014CE7EE400A88BA6 = {
+			isa = PBXGroup;
+			children = (
+				9FD0B3C514CE7EE400A88BA6 /* SimpleActionSheet */,
+				9FD0B3BE14CE7EE400A88BA6 /* Frameworks */,
+				9FD0B3BC14CE7EE400A88BA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FD0B3BC14CE7EE400A88BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FD0B3BB14CE7EE400A88BA6 /* SimpleActionSheet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FD0B3BE14CE7EE400A88BA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FD0B3BF14CE7EE400A88BA6 /* UIKit.framework */,
+				9FD0B3C114CE7EE400A88BA6 /* Foundation.framework */,
+				9FD0B3C314CE7EE400A88BA6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FD0B3C514CE7EE400A88BA6 /* SimpleActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				9FD0B3CE14CE7EE400A88BA6 /* SimpleActionSheetAppDelegate.h */,
+				9FD0B3CF14CE7EE400A88BA6 /* SimpleActionSheetAppDelegate.m */,
+				9FD0B3D114CE7EE400A88BA6 /* MainWindow.xib */,
+				9FD0B3C614CE7EE400A88BA6 /* Supporting Files */,
+				9FD0B3D914CE7F0800A88BA6 /* SimpleActionSheetViewController.h */,
+				9FD0B3DA14CE7F0800A88BA6 /* SimpleActionSheetViewController.m */,
+			);
+			path = SimpleActionSheet;
+			sourceTree = "<group>";
+		};
+		9FD0B3C614CE7EE400A88BA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FD0B3C714CE7EE400A88BA6 /* SimpleActionSheet-Info.plist */,
+				9FD0B3C814CE7EE400A88BA6 /* InfoPlist.strings */,
+				9FD0B3CB14CE7EE400A88BA6 /* main.m */,
+				9FD0B3CD14CE7EE400A88BA6 /* SimpleActionSheet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FD0B3BA14CE7EE400A88BA6 /* SimpleActionSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD0B3D614CE7EE400A88BA6 /* Build configuration list for PBXNativeTarget "SimpleActionSheet" */;
+			buildPhases = (
+				9FD0B3B714CE7EE400A88BA6 /* Sources */,
+				9FD0B3B814CE7EE400A88BA6 /* Frameworks */,
+				9FD0B3B914CE7EE400A88BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleActionSheet;
+			productName = SimpleActionSheet;
+			productReference = 9FD0B3BB14CE7EE400A88BA6 /* SimpleActionSheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FD0B3B214CE7EE400A88BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Haifa Carina Baluyos, Inc.";
+			};
+			buildConfigurationList = 9FD0B3B514CE7EE400A88BA6 /* Build configuration list for PBXProject "SimpleActionSheet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FD0B3B014CE7EE400A88BA6;
+			productRefGroup = 9FD0B3BC14CE7EE400A88BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FD0B3BA14CE7EE400A88BA6 /* SimpleActionSheet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FD0B3B914CE7EE400A88BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD0B3CA14CE7EE400A88BA6 /* InfoPlist.strings in Resources */,
+				9FD0B3D314CE7EE400A88BA6 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FD0B3B714CE7EE400A88BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD0B3CC14CE7EE400A88BA6 /* main.m in Sources */,
+				9FD0B3D014CE7EE400A88BA6 /* SimpleActionSheetAppDelegate.m in Sources */,
+				9FD0B3DB14CE7F0800A88BA6 /* SimpleActionSheetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FD0B3C814CE7EE400A88BA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FD0B3C914CE7EE400A88BA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FD0B3D114CE7EE400A88BA6 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FD0B3D214CE7EE400A88BA6 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FD0B3D414CE7EE400A88BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FD0B3D514CE7EE400A88BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FD0B3D714CE7EE400A88BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleActionSheet/SimpleActionSheet-Prefix.pch";
+				INFOPLIST_FILE = "SimpleActionSheet/SimpleActionSheet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9FD0B3D814CE7EE400A88BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleActionSheet/SimpleActionSheet-Prefix.pch";
+				INFOPLIST_FILE = "SimpleActionSheet/SimpleActionSheet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FD0B3B514CE7EE400A88BA6 /* Build configuration list for PBXProject "SimpleActionSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD0B3D414CE7EE400A88BA6 /* Debug */,
+				9FD0B3D514CE7EE400A88BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD0B3D614CE7EE400A88BA6 /* Build configuration list for PBXNativeTarget "SimpleActionSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD0B3D714CE7EE400A88BA6 /* Debug */,
+				9FD0B3D814CE7EE400A88BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FD0B3B214CE7EE400A88BA6 /* Project object */;
+}
